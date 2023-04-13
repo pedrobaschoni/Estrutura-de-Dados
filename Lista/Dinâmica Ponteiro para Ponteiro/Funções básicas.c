@@ -88,7 +88,7 @@ void inserir_ordenado(lista **L, char elem) {
         q = getnode();
         if(q != NULL) {
             aux2 = *L;
-            while(aux2->next != aux) {
+            while(aux2->next->info != aux->info) {
                 aux2 = aux2->next;
             }
             q->info = elem;
