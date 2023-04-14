@@ -144,13 +144,13 @@ lista* pesquisa(lista *L, char elem) {
 
     if(vazia(L)) {
         printf("\nErro! - Lista vazia");
-        return NULL;
-    }
-    q = L;
-    while(!vazia(q)) {
+    } else {
+        q = L;
+        while(!vazia(q)) {
         if(q->info == elem)
             return q;
         q = q->next;
+        }
     }
     return NULL;
 }
