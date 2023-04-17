@@ -93,7 +93,7 @@ int remover_inicio(lista *L) {
     return elem;
 }
 
-void inverter(pilha *P) {
+void inverter_lista(pilha *P) {
     lista L;
     int elem;
 
@@ -152,7 +152,7 @@ void main() {
     push(&P, 3);
     push(&P, 4);
 
-//    inverter(&P);
+//    inverter_lista(&P);
 
     P = inverter_pilha(&P);
 
