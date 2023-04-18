@@ -186,19 +186,19 @@ void main() {
                 break;
             case 1:
                 printf("\nInforme o valor que deseja inserir: ");
-                __fpurge(stdin);
+                __fpurge(stdin); //fflush(stdin);
                 scanf("%c", &elem);
                 inserir_fim(&L, elem);
                 break;
             case 2:
                 printf("\nInforme o valor que deseja inserir: ");
-                __fpurge(stdin);
+                __fpurge(stdin); //fflush(stdin);
                 scanf("%c", &elem);
                 inserir_inicio(&L, elem);
                 break;
             case 3:
                 printf("\nInforme o valor que deseja inserir: ");
-                __fpurge(stdin);
+                __fpurge(stdin); //fflush(stdin);
                 scanf("%c", &elem);
                 printf("\nInforme a posicao que deseja inserir: ");
                 scanf("%d", &posicao);
@@ -220,7 +220,7 @@ void main() {
                 break;
             case 7:
                 printf("\nInforme o elemento que deseja inserir: ");
-                __fpurge(stdin);
+                __fpurge(stdin); //fflush(stdin);
                 scanf("%c", &elem);
                 printf("\nInforme a posicao que deseja modificar: ");
                 scanf("%d", &posicao);
