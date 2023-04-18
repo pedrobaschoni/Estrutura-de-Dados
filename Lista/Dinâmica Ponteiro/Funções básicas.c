@@ -222,21 +222,21 @@ void main() {
         switch(opcao) {
             case 1:
                 printf("Opção selecionada: Inserir no fim\n");
-                __fpurge(stdin);
+                __fpurge(stdin); //fflush(stdin);
                 printf("Informe a letra que deseja inserir: \n");
                 scanf("%c", &elem);
                 L = inserir_fim(L, elem);
                 break;
             case 2:
                 printf("Opção selecionada: Inserir no início\n");
-                __fpurge(stdin);
+                __fpurge(stdin); //fflush(stdin);
                 printf("Informe a letra que deseja inserir: \n");
                 scanf("%c", &elem);
                 L = inserir_inicio(L, elem);
                 break;
             case 3:
                 printf("Opção selecionada: Inserir ordenado\n");
-                __fpurge(stdin);
+                __fpurge(stdin); //fflush(stdin);
                 printf("Informe a letra que deseja inserir: \n");
                 scanf("%c", &elem);
                 L = inserir_ordenado(L, elem);
@@ -251,7 +251,7 @@ void main() {
                 break;
             case 6:
                 printf("Opção selecionada: Remover por valor\n");
-                __fpurge(stdin);
+                __fpurge(stdin); //fflush(stdin);
                 printf("Informe a letra que deseja remover: \n");
                 scanf("%c", &elem);
                 L = remover_valor(L, elem);
