@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <ctype.h>
 
 typedef struct sReceita {
     char titutlo[50];
@@ -155,6 +156,7 @@ receita ler_receita(receita elem) {
     fflush(stdin);
     printf("\nInforme o nome da receita: ");
     scanf("%[^\n]", elem.titutlo);
+    elem.titutlo[0] = toupper(elem.titutlo[0]);
     fflush(stdin);
     printf("Informe a descricao da receita: ");
     scanf("%[^\n]", elem.descricao);
