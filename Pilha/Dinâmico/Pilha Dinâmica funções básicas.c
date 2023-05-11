@@ -105,8 +105,8 @@ void main() {
                 printf("Opcao invalida!\n");
                 break;
         }
-//        system("pause");
-//        system("cls");
+        system("pause");
+        system("cls");
 
     }while(opcao != 0);
 }
