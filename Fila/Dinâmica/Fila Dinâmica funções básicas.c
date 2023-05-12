@@ -34,11 +34,10 @@ void enfileirar(fila **inicio, fila **fim, char elem) {
         f->next = NULL;
         if(vazia(*inicio)) {
             *inicio = f;
-            *fim = f;
         } else {
             (*fim)->next = f;
-            *fim = f;
         }
+        *fim = f;
     } else {
         printf("Erro na alocacao do no\n");
     }
@@ -54,11 +53,9 @@ char desenfileirar(fila **inicio, fila **fim) {
         elem = (*inicio)->info;
 
         if(*inicio == *fim) {
-            *inicio = NULL;
             *fim = NULL;
-        } else {
-            *inicio = (*inicio)->next;
         }
+        *inicio = (*inicio)->next;
         freenode(q);
         return elem;
     }
