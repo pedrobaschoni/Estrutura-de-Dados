@@ -133,15 +133,15 @@ void main() {
 
     inicializar(&inicio, &fim);
 
-//    inserir_inicio(&inicio, &fim, 'a');
-//    inserir_inicio(&inicio, &fim, 'b');
-//    inserir_inicio(&inicio, &fim, 'c');
-//    inserir_inicio(&inicio, &fim, 'd');
+    inserir_inicio(&inicio, &fim, 'a');
+    inserir_inicio(&inicio, &fim, 'b');
+    inserir_inicio(&inicio, &fim, 'c');
+    inserir_inicio(&inicio, &fim, 'd');
     inserir_fim(&inicio, &fim, 'y');
     inserir_fim(&inicio, &fim, 'z');
     inserir_fim(&inicio, &fim, 'w');
 
-//    remover_inicio(&inicio, &fim);
+    remover_inicio(&inicio, &fim);
     remover_fim(&inicio, &fim);
 
     exibir_deque(&inicio, &fim);
