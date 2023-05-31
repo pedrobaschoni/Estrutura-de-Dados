@@ -163,8 +163,8 @@ void main() {
     inserir_fim(&L, 'd');
     inserir_inicio(&L, 'y');
     inserir_inicio(&L, 'z');
-//    remover_inicio(&L);
-//    remover_fim(&L);
+    remover_inicio(&L);
+    remover_fim(&L);
     remover_valor(&L, 'z');
 
     exibir_lista(L);
