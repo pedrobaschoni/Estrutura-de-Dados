@@ -9,6 +9,7 @@ Aqui está uma lista das estruturas de dados atualmente disponíveis neste repos
 - Lista (Estática e Dinâmica)
 - Pilha (Estática e Dinâmica)
 - Fila (Estática e Dinâmica)
+- Deque (Estático e Dinâmico)
 
 ## Como Usar
 
