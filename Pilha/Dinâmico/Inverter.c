@@ -79,10 +79,8 @@ void exibir_pilha(pilha **topo) {
 
 void main() {
     pilha *topo;
-    pilha *aux;
 
     inicializar(&topo);
-    inicializar(&aux);
 
     push(&topo, 'a');
     push(&topo, 'b');
