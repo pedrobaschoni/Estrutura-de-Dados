@@ -27,7 +27,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request 
 
 ---
 
-Esperamos que este projeto seja útil para o seu aprendizado. Se tiver alguma dúvida ou sugestão, fique à vontade para entrar em contato.
+Espero que este projeto seja útil para o seu aprendizado. Se tiver alguma dúvida ou sugestão, fique à vontade para entrar em contato.
 
 Divirta-se codificando! 🚀
 
