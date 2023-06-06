@@ -21,7 +21,15 @@ Todos os códigos foram criados no ambiente Windows e, caso sejam executados em 
 - `system("cls")` deve ser substituído por `system("clear")`;
 - `#include <conio.h>` não é uma biblioteca padrão em sistemas Linux, portanto, para usar a função `rand()`, é necessário incluir a biblioteca `stdlib.h` e utilizar a função `srand()` para gerar uma semente para o gerador de números aleatórios.
 
-Caso encontre algum problema ou queira contribuir com novos códigos, sinta-se livre para abrir um Pull Request.
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request com melhorias, correções de bugs ou novos recursos.
+
+---
+
+Esperamos que este projeto seja útil para o seu aprendizado. Se tiver alguma dúvida ou sugestão, fique à vontade para entrar em contato.
+
+Divirta-se codificando! 🚀
 
 
 
