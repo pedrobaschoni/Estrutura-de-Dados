@@ -16,7 +16,7 @@ Aqui está uma lista das estruturas de dados atualmente disponíveis neste repos
 
 Todos os códigos foram criados no ambiente Windows e, caso sejam executados em um ambiente Linux, alguns comandos devem ser alterados. Abaixo estão listados os comandos que precisam ser alterados:
 
-- `fflush(stdin)` deve ser substituído por `fpurge(stdin)` ou por uma leitura adicional de `getchar()`;
+- `fflush(stdin)` deve ser substituído por `__fpurge(stdin)` ou por uma leitura adicional de `getchar()`;
 - `system("pause")` deve ser substituído por `system("read -p 'Pressione Enter para continuar...'")`;
 - `system("cls")` deve ser substituído por `system("clear")`;
 - `#include <conio.h>` não é uma biblioteca padrão em sistemas Linux, portanto, para usar a função `rand()`, é necessário incluir a biblioteca `stdlib.h` e utilizar a função `srand()` para gerar uma semente para o gerador de números aleatórios.
