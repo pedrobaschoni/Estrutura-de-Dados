@@ -98,9 +98,6 @@ int remover_fim(lista *L) {
     }
     elem = L->itens[L->n];
 
-    for(i = L->n; i <= 0; i--) {
-        L->itens[i] = L->itens[i-1];
-    }
     L->n--;
     return elem;
 }
