@@ -61,11 +61,11 @@ char remover_fim(deque *D) {
         printf("\nErro! - Deque vazia");
         return -1;
     }
+    elem = D->itens[D->fim];
     D->fim--;
     if(D->fim == -1) {
         D->fim = TAM-1;
     }
-    elem = D->itens[D->fim];
     return elem;
 }
 
