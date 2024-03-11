@@ -1,6 +1,6 @@
 # Estrutura de Dados em C
 
-Este repositório contém códigos-fonte em C que implementam diversas estruturas de dados, tais como listas, pilhas, filas, deques, tanto estáticos quanto dinâmicos e estrutura de árvores binárias. O objetivo é fornecer exemplos práticos de como essas estruturas podem ser implementadas em C e como elas podem ser usadas em diferentes tipos de aplicações, como encontradas neste repositório.
+Este repositório contém códigos-fonte em C que implementam diversas estruturas de dados, tais como listas, pilhas, filas, deques, tanto estáticos quanto dinâmicos, buscas, ordenação e estrutura de árvores binárias. O objetivo é fornecer exemplos práticos de como essas estruturas podem ser implementadas em C e como elas podem ser usadas em diferentes tipos de aplicações, como encontradas neste repositório.
 
 ## Estruturas de Dados Disponíveis
 
@@ -11,6 +11,8 @@ Aqui está uma lista das estruturas de dados atualmente disponíveis neste repos
 - Fila (Estática e Dinâmica)
 - Deque (Estático e Dinâmico)
 - Árvore binária (Pesquisa)
+- Buscas (Exaustiva, Sequêncial e Binária)
+- Ordenação (Bubble Sort, Selection Sort, Insertion Sort, Shell Sort)
 
 ## Como Usar
 
