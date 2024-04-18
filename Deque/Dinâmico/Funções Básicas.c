@@ -60,9 +60,6 @@ void inserir_fim(deque **inicio, deque **fim, char elem) {
             *inicio = q;
             *fim = q;
         } else {
-            while(aux != NULL) {
-                aux = aux->next;
-            }
             (*fim)->next = q;
             q->back = *fim;
             *fim = q;
